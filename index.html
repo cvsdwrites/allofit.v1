@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>allofit</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>allofit</h1>
+    </header>
+    <main>
+      <section>
+        <h2>My Tasks</h2>
+        <form>
+          <label for="title">What do you need to get done?</label>
+          <input type="text" id="title" name="title" required>
+          <label for="date">What's the due date?</label>
+          <input type="date" id="date" name="date" required>
+          <label for="time">What time is it due?</label>
+          <input type="time" id="time" name="time" required>
+          <button type="submit">add</button>
+        </form>
+      </section>
+      <section>
+        <h2>Tasks</h2>
+        <ul id="task-list"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
