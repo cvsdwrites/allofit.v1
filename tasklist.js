@@ -19,3 +19,12 @@ taskList.addEventListener("click", function(event) {
     }
   }
 });
+function editTask(index) {
+  const task = tasks[index];
+  const newLabel = prompt("Edit task:", task.label);
+  if (newLabel !== null && newLabel.trim() !== "") {
+    task.label = newLabel.trim();
+    saveTasks();
+    renderTasks();
+  }
+}
