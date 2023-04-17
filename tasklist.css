@@ -1,0 +1,51 @@
+/* Task list styles */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-label {
+  flex: 1;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+/* Task form styles */
+.task-form {
+  margin-top: 20px;
+}
+
+.task-input {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.task-button {
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Delete and Edit button styles */
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  margin-right: 10px;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: black;
+}
